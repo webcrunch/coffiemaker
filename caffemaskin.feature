@@ -4,9 +4,9 @@ Feature: As an user i want to get a black cup coffee
     Scenario: Successfully oredered a black cup coffee
         Given There are coffee in the machine
         #And vattnet är påkopplat med mera ... .
-        When Användaren klickar på svart kaffe knappen
+        When The user klicks on the button for black coffee
         #And placerar en kopp i kopphåller
-        Then maskinen häller svart kaffe i koppen.
+        Then The machine pour black coffee into the cup
 
     Scenario: Ingen kopp finns placerad i kopphållaren
         Given Där finns kaffe i maskinen
