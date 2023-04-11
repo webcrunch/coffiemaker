@@ -1,8 +1,8 @@
 // TODO: convert swedish to english
-Feature: Som användare vill jag beställa en svart kopp kaffe
+Feature: As an user i want to get a black cup coffee
 
-    Scenario: Lyckad beställning av svart kaffe
-        Given Där finns kaffe i maskinen
+    Scenario: Successfully oredered a black cup coffee
+        Given There are coffee in the machine
         #And vattnet är påkopplat med mera ... .
         When Användaren klickar på svart kaffe knappen
         #And placerar en kopp i kopphåller
